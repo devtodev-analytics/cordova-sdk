@@ -3,7 +3,7 @@
 	xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="com.phonegap.plugins.devtodev"
-	version="1.7.1">
+	version="1.9.1">
 	<name>DevToDev</name>
 	<description>Cordova/Phonegap plugin for devtodev mobile analytics</description>
 	<license>Apache 2.0</license>
