@@ -8,4 +8,4 @@ Check out our [official documentation](https://www.devtodev.com/help/148/cordova
 
 Changelog
 ---------
-See [wiki page](https://www.devtodev.com/downloads/more/14).
+See [releases](https://github.com/devtodev-analytics/cordova-sdk/releases/).
