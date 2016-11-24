@@ -10,6 +10,16 @@ Changelog
 ---------
 See [releases](https://github.com/devtodev-analytics/cordova-sdk/releases/).
 
+#### 1.9.1
+* Decreased size of framework
+* Disabled clang modules
+* Removed deprecated anticheat methods
+* Some minor fixes
+* iOS 10 support 
+* Added the ability to attach media files into the push notification
+* Added interactivity to push-notifications: buttons, sharing, URLs, deeplinks, sound control.
+* Framework distribution
+
 #### 1.8.1
 * Added possibility to generate several progression events within one session
 
