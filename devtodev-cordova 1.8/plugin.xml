@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="com.phonegap.plugins.devtodev"
+	version="1.7.1">
+	<name>DevToDev</name>
+	<description>Cordova/Phonegap plugin for devtodev mobile analytics</description>
+	<license>Apache 2.0</license>
+	<keywords>devtodev,analytics,phonegap,cordova</keywords>
+	<author>devtodev</author>
+
+	<js-module src="www/devtodevPlugin.js" name="DevToDevPlugin">
+		<clobbers target="DevToDevPlugin" />
+	</js-module>
+
+	<engines>
+		<engine name="cordova" version=">=3.0.0" />
+	</engines>
+
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="DevToDevPlugin">
+				<param name="ios-package" value="DevToDevPlugin"/>
+				<param name="onload" value="true" />
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/includes/core/DevToDev.h" />
+		<header-file src="src/ios/includes/core/CustomEventParams.h" />
+		<header-file src="src/ios/includes/core/TutorialState.h" />
+		<header-file src="src/ios/includes/core/SocialNetwork.h" />
+		<header-file src="src/ios/includes/core/Gender.h" />
+		<header-file src="src/ios/includes/core/AccrualType.h" />
+		<header-file src="src/ios/includes/core/People.h" />
+		<header-file src="src/ios/includes/core/ReferralProperty.h" />
+		<header-file src="src/ios/includes/core/ProgressionEventParams.h" />
+		<header-file src="src/ios/includes/core/LocationEventParams.h" />
+		<header-file src="src/ios/includes/push/DevToDevPushManager.h" />
+
+		<header-file src="src/ios/DevToDevPlugin.h" />
+		<source-file src="src/ios/DevToDevPlugin.m" />
+    	<source-file src="src/ios/libdevtodev.a" framework="true" />
+
+		<framework src="CFNetwork.framework" />
+		<framework src="libz.dylib" />
+		<framework src="Security.framework" />
+		<framework src="AdSupport.framework" />
+		<framework src="UIKit.framework" />
+		<framework src="SystemConfiguration.framework" />
+		<framework src="CoreGraphics.framework" />
+	</platform>
+</plugin>
