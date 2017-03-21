@@ -1,6 +1,6 @@
 Latest Version 
 --------------
-##### _Mar 21st, 2017_ - [v1.10](https://github.com/devtodev-analytics/cordova-sdk/releases/latest)
+##### _Mar 21st, 2017_ - [v1.10.2](https://github.com/devtodev-analytics/cordova-sdk/releases/latest)
 
 Getting Started
 ---------------
