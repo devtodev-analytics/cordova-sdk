@@ -1,0 +1,46 @@
+{
+  "name": "devtodev",
+  "version": "1.13.2",
+  "displayName": "HelloCordova",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-whitelist": "1"
+  },
+  "description": "Cordova/Phonegap plugin for devtodev mobile analytics",
+  "devDependencies": {
+    "cordova-ios": "undefined4.5.4",
+    "cordova-plugin-whitelist": "undefined1.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devtodev-analytics/cordova-sdk.git"
+  },
+  "keywords": [
+    "devtodev",
+    "analytics",
+    "phonegap",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "devtodev",
+  "license": "no",
+  "bugs": {
+    "url": "https://github.com/devtodev-analytics/cordova-sdk/issues"
+  },
+  "homepage": "https://github.com/devtodev-analytics/cordova-sdk#readme"
+}
