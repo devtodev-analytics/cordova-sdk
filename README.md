@@ -1,3 +1,5 @@
+# Attention! The support of the SDK for this platform has been suspended!
+
 Latest Version 
 --------------
 ##### _Jun 6th, 2017_ - [v1.13.2](https://github.com/devtodev-analytics/cordova-sdk/releases/latest)
